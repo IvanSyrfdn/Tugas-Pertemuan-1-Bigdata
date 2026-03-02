@@ -22,6 +22,21 @@ Karakteristik data dalam industri pariwisata memenuhi lima pilar utama Big Data:
 * **Veracity:** Tantangan dalam memastikan keaslian ulasan (menghindari *fake reviews*) serta akurasi data lokasi agar keputusan yang diambil tidak bias.
 * **Value:** Data hanya akan bernilai jika mampu memberikan wawasan untuk meningkatkan jumlah kunjungan atau efisiensi operasional destinasi wisata.
 
+### Perbandingan: Data Tradisional vs. Big Data dalam Pariwisata
+
+Untuk menentukan apakah sebuah data memerlukan sistem Big Data atau cukup dengan sistem basis data konvensional, kita dapat melihat tabel perbandingan berikut:
+
+| Jenis Data | Karakteristik | Cocok untuk Sistem Big Data? | Alasan |
+| :--- | :--- | :---: | :--- |
+| **Data Reservasi Hotel** | Terstruktur, volume moderat, perubahan lambat. | **Tidak Selalu** | Bisa dikelola dengan database relasional (SQL) biasa untuk operasional harian. |
+| **Log Pencarian Maskapai** | Semi-terstruktur, volume sangat tinggi, real-time. | **Ya** | Memerlukan kecepatan proses (Velocity) tinggi untuk menangani jutaan permintaan per detik. |
+| **Ulasan & Foto Medsos** | Tidak terstruktur (Teks/Gambar), volume masif. | **Ya** | Database tradisional sulit memproses analisis sentimen atau pengenalan gambar secara efisien. |
+| **Data Pergerakan GPS** | Deret waktu (Time-series), volume sangat besar. | **Ya** | Membutuhkan skalabilitas penyimpanan dan kemampuan analitik spasial yang kompleks. |
+
+
+
+---
+
 ---
 
 ## 3. Potensi Value yang Dihasilkan
@@ -41,6 +56,3 @@ Meskipun potensinya besar, terdapat beberapa hambatan utama:
 * **Kualitas Data:** Mengolah data yang "kotor" atau tidak lengkap dari berbagai sumber agar tetap bisa digunakan untuk model analisis prediktif yang akurat.
 
 ---
-
-## Kesimpulan
-Industri pariwisata adalah kandidat utama untuk implementasi **Data Lakehouse**. Dengan kemampuan menyimpan data tidak terstruktur (foto/ulasan) sekaligus mendukung analisis data terstruktur (transaksi) secara cepat, teknologi ini memungkinkan pelaku industri untuk lebih adaptif terhadap perubahan perilaku wisatawan di era digital.
