@@ -24,7 +24,6 @@ Karakteristik data dalam industri pariwisata memenuhi lima pilar utama Big Data:
 
 ### Perbandingan: Data Tradisional vs. Big Data dalam Pariwisata
 
-Untuk menentukan apakah sebuah data memerlukan sistem Big Data atau cukup dengan sistem basis data konvensional, kita dapat melihat tabel perbandingan berikut:
 
 | Jenis Data | Karakteristik | Cocok untuk Sistem Big Data? | Alasan |
 | :--- | :--- | :---: | :--- |
