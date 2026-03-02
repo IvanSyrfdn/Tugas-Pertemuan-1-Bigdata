@@ -36,10 +36,8 @@ Karakteristik data dalam industri pariwisata memenuhi lima pilar utama Big Data:
 
 ---
 
----
-
 ## 3. Potensi Value yang Dihasilkan
-Pemanfaatan Big Data melalui arsitektur seperti **Data Lakehouse** memungkinkan industri pariwisata menghasilkan nilai strategis berikut:
+
 
 * **Hyper-Personalization:** Memberikan rekomendasi destinasi dan promo hotel yang sangat personal berdasarkan perilaku digital dan preferensi unik setiap wisatawan.
 * **Dynamic Pricing:** Maskapai dan pengelola hotel dapat menyesuaikan harga secara otomatis berdasarkan tren pasar, cuaca, dan acara besar (event) yang terdeteksi dari data eksternal.
@@ -48,7 +46,6 @@ Pemanfaatan Big Data melalui arsitektur seperti **Data Lakehouse** memungkinkan 
 ---
 
 ## 4. Tantangan dalam Pengelolaan Data
-Meskipun potensinya besar, terdapat beberapa hambatan utama:
 
 * **Privasi dan Keamanan:** Melindungi data sensitif (PII - *Personally Identifiable Information*) seperti data paspor dan kartu kredit dari ancaman siber.
 * **Integrasi Data (Data Silos):** Data tersebar di berbagai organisasi (maskapai, imigrasi, hotel). Menyatukan data tersebut ke dalam satu platform tunggal (seperti Lakehouse) memerlukan koordinasi teknis dan hukum yang rumit.
